@@ -1,0 +1,13 @@
+Il data set da esaminare è quello relativo ai consumi e costi idrici per abitazioni a New York (2013-2020):
+
+https://www.kaggle.com/odezi45/new-york-water-consumption-and-cost
+
+Esso contiene informazioni sul fornitore di servizi e sul contatore.
+
+A mio avviso un'analisi sensata potrebbe prevedere la creazione di unità di analisi relative a un singolo contatore a partire dalle diverse osservazioni mensili (i consumi). Questo perché le unità di osservazione non sono indipendenti e sembrano contenere stesse informazioni ripetute, ma valori diversi di consumo per i diversi mesi.
+
+Si possono definire due task:
+
+1) segmentare il database dei contatori (clustering)
+
+2) scoprire regole di associazione che possano caratterizzare i contatori.
